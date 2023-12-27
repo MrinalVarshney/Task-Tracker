@@ -85,7 +85,7 @@ const DisplayTasks = () => {
                 Pending
               </div>
               <div
-                className="transition-all duration-300 ease-out w-1/2 p-5 hover:cursor-pointer flex justify-center items-center"
+                className="transition-all h-full duration-300 ease-out w-1/2 p-5 hover:cursor-pointer flex justify-center items-center"
                 style={
                   taskType === "Completed"
                     ? { backgroundColor: "#ACA7D5" }
